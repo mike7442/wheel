@@ -29,6 +29,7 @@ scripts/            PC tools (Python, no third-party packages)
   torque.py         FOC torque steps with abort thresholds
   ffb_test.py       bench FFB effects: const / sine / spring
   ffb_ac.py         Assetto Corsa / ACC shared memory -> torque
+  vjoy_wheel.py     wheel position -> vJoy virtual joystick axis
   persist.py        read/write config words, save to flash
   snapshot.py       snapshot/restore the whole config page
 esp32/bridge/       ESP32-S3 USB<->UART bridge (PlatformIO)
