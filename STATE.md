@@ -19,11 +19,12 @@
 
 ## What is not done
 
-- [ ] Wheel position to the game as an axis (HID) — the next milestone
-- [ ] DR2 (Colin McRae Dirt Rally 2) telemetry / FFB path
+- [x] Wheel position to the game as an axis (vJoy X) — done
+- [x] DR2 (Colin McRae Dirt Rally 2) FFB path: DirectInput via vJoy → torque
 - [ ] Calibrations: `hallang1..6`, `motorr`, `phasel`, `sinekv` still default
 - [ ] Mechanics: frame, column, bearings, mechanical lock
 - [ ] Fuse + E-stop installed (spec in `BRINGUP.md` section 6)
+- [ ] `lost the board` link drops at 0.4 Nm — see `AGENT_CONTEXT.md` §9
 
 ## FFB path (DR2, proven on the Arduino prototype)
 
@@ -89,6 +90,9 @@ ODrive-style views: overvoltage trip 44.9 V, undervoltage trip 18.0 V,
 | `before.bin` | 32768 B | original board dump (before any change) |
 
 ## Reproduce from zero
+
+Short version for this repo (the full beginner guide is in
+<https://github.com/mike7442/sim-wheel>):
 
 1. `scripts\fetch_vendor.ps1`
 2. build + flash PinFinder, run `pf.py detect ...`, `pf.py --export board.json`

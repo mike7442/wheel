@@ -4,11 +4,15 @@ DIY force-feedback steering wheel built from a hoverboard BLDC hub motor and a
 hoverboard mainboard (MM32SPIN05PF), driven from a PC over an ESP32-S3 USB
 bridge. Torque control, not speed: the wheel is a direct-drive FFB axis.
 
-**Current state: bench-verified.** FOC torque works at 42 V, the PC streams
-torque at ~80 Hz, Assetto Corsa telemetry drives a first FFB model, and the
-next step is feeding the wheel position to the game as an axis. See
-[`STATE.md`](STATE.md) for the exact working configuration and
-[`BRINGUP.md`](BRINGUP.md) for the full bring-up ladder and journal.
+**Current state: FFB works in Dirt Rally 2.0.** The wheel position goes to the
+game as a vJoy axis, and the game's DirectInput force feedback comes back as
+torque (0.2–0.4 Nm proven on the bench). See [`STATE.md`](STATE.md) for the
+exact working configuration, [`BRINGUP.md`](BRINGUP.md) for the bring-up ladder
+and journal, and [`AGENT_CONTEXT.md`](AGENT_CONTEXT.md) for the handover notes
+(decisions, pitfalls, open issues).
+
+**Rebuilding from a clean laptop:** the standalone beginner guide lives in a
+separate repo, <https://github.com/mike7442/sim-wheel>.
 
 ## Hardware
 
