@@ -80,6 +80,7 @@ ODrive-style views: overvoltage trip 44.9 V, undervoltage trip 18.0 V,
 
 - `--diff` right after the save: **0 of 113** changed
 - `--restore` into RAM: **113 words**, `--diff` again **0 of 113**
-- `--restore --flash`: page written, no reset; verify after a power cycle
+- `--restore --flash`: page written; after a power cycle `--diff` = **0 of 113**
+  (2026-11-22), so the config page really survives power-off
 - `drivemode`, `timeout`, `batfull` are part of the page, so one restore
   reproduces the whole working state, not just the pin config
