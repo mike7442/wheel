@@ -27,8 +27,10 @@
 
 ## Board config (key words)
 
-Authoritative full dump: `config_snapshot.json` (116 words).
-Restore: `python scripts\snapshot.py --restore config_snapshot.json --flash`.
+Authoritative full dump: `config_snapshot.json` (113 rw words, saved 2026-11-22
+17:46 at `vbus` 42.02). The page has 116 words; the other 3 are read-only.
+Restore: `python scripts\snapshot.py --restore config_snapshot.json --flash`
+(then power-cycle and `--diff`).
 
 | Word | Value | Meaning |
 |---|---|---|
@@ -36,8 +38,8 @@ Restore: `python scripts\snapshot.py --restore config_snapshot.json --flash`.
 | `timeout` | 400 | ms without a command -> torque 0 |
 | `batfull` | 41900 | mV; 100 mV below the 42 V bus, blocks regen into the PSU |
 | `batempty` | 18000 | mV; PSU setup, raise to 30000 on the real 10S pack |
-| `posrpm` | 300 | vel_limit 5 turns/s; torque falls to 0 there |
-| `focimax` | 100 | 10 A phase current limit |
+| `posrpm` | 65535 = default 300 | vel_limit 5 turns/s; torque falls to 0 there |
+| `focimax` | 0 = default 100 (10 A) | phase current limit |
 | `overspeederr` | 65535 | off |
 | `vbatgain` | 29985 | battery divider 29.985 (linear at 42 V) |
 | `itotaldivider` | 332 | bus shunt ~3 mOhm |
@@ -73,3 +75,11 @@ ODrive-style views: overvoltage trip 44.9 V, undervoltage trip 18.0 V,
 4. `python scripts\snapshot.py --restore config_snapshot.json --flash`
 5. power-cycle, `python scripts\persist.py --show` -> compare with the table above
 6. `python scripts\torque.py --torque 0.1 --torque -0.1 --seconds 2`
+
+## Restore drill (2026-11-22)
+
+- `--diff` right after the save: **0 of 113** changed
+- `--restore` into RAM: **113 words**, `--diff` again **0 of 113**
+- `--restore --flash`: page written, no reset; verify after a power cycle
+- `drivemode`, `timeout`, `batfull` are part of the page, so one restore
+  reproduces the whole working state, not just the pin config
