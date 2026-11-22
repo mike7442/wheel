@@ -25,6 +25,27 @@
 - [ ] Mechanics: frame, column, bearings, mechanical lock
 - [ ] Fuse + E-stop installed (spec in `BRINGUP.md` section 6)
 
+## FFB path (DR2, proven on the Arduino prototype)
+
+Dirt Rally 2 needs no telemetry: it sends a DirectInput force feedback effect
+to the vJoy device, and pyvjoy's FFB callback reads it. The prototype logs
+(2026-08-22/28) show, for `colin mc rae dirt 2`:
+
+- one effect, type 1 (**constant force**), magnitude `-10000..+10000`
+- re-sent every **10 ms (100 Hz)**, device gain 255, effect gain 255
+- no periodic or condition effects; ACC is different (`condX` spring)
+
+So the whole FFB path is: `game -> vJoy -> pyvjoy callback -> magnitude ->
+torque`. `scripts/vjoy_ffb.py` does that plus the axis:
+
+```
+pos_estimate -> vJoy axis -> game
+game FFB     -> magnitude -> torque -> MM32
+```
+
+Start with `--max-torque 0.3`; `--dry-run` prints the magnitude without arming.
+Effects are zeroed on stop/reset/block-free, not left at the last value.
+
 ## Board config (key words)
 
 Authoritative full dump: `config_snapshot.json` (113 rw words, saved 2026-11-22
