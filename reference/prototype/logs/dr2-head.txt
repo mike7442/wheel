@@ -1,0 +1,80 @@
+﻿============================================================
+Ð›ÐžÐ“ FFB
+Ð˜Ð³Ñ€Ð°:        colin mc rae dirt 2
+ÐŸÐ°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹:   asdf
+Ð’Ñ€ÐµÐ¼Ñ ÑÑ‚Ð°Ñ€Ñ‚Ð°:2026-08-28_18-25-48
+============================================================
+
+[18:25:51.284] reptype=12 | ebi=0 | data={'ctrl': 4}
+[18:25:51.284] reptype=12 | ebi=0 | data={'ctrl': 3}
+[18:25:51.284] reptype=13 | ebi=0 | data={'gain': 255}
+[18:25:51.295] reptype=17 | ebi=0 | data={'blkload': 1}
+[18:25:51.295] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.295] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.300] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.311] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.311] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.311] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.321] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.321] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.321] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.332] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.332] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.332] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.342] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.342] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.342] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.353] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.353] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.353] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.363] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.363] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.363] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.373] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.373] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.373] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.384] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.384] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.385] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.395] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.395] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.395] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.405] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.405] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.405] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.415] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.415] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.415] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.426] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.426] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.426] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.436] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.436] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.436] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.446] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.446] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.446] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.457] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.457] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.458] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.468] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.468] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.468] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.479] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.479] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.479] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.489] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.489] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.489] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.499] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.499] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.499] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.510] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.510] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.510] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.521] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.521] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.521] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}
+[18:25:51.531] reptype=5 | ebi=1 | data={'const': {'EffectBlockIndex': 1, 'Magnitude': 0}}
+[18:25:51.531] reptype=1 | ebi=1 | data={'effect': {'EffectBlockIndex': 1, 'EffectType': 1, 'Duration': 65535, 'TriggerRpt': 0, 'SamplePrd': 0, 'StartDelay': 0, 'Gain': 255, 'TriggerBtn': 255, 'Polar': 4, 'DirX': 8191, 'DirY': 0}}
+[18:25:51.531] reptype=10 | ebi=1 | data={'effop': {'EffectBlockIndex': 1, 'EffectOp': 1, 'LoopCount': 1}}

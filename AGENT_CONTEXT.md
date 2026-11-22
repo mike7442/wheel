@@ -161,6 +161,8 @@ before.bin          оригинальный дамп платы (32 КБ) — �
 config_snapshot.json  рабочая страница конфига
 board.json          экспорт PinFinder
 vendor/             ALIFE-MM32, gitignored, pinned в vendor.lock
+reference/prototype/  код Arduino/vJoy-прототипа, который доказал путь DR2;
+                    полные логи (178 МБ) — релиз с тегом `prototype-logs`
 ```
 
 ## 9. Открытые вопросы / что тревожит

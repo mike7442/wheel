@@ -43,6 +43,8 @@ config_snapshot.json  the board's config page at the checkpoint
 board.json          PinFinder pin config export
 before.bin          original board dump
 vendor/             third-party firmware (gitignored, pinned in vendor.lock)
+reference/prototype/  Arduino/vJoy prototype that proved the DR2 FFB path (code;
+                    full 178 MB of logs: release tag `prototype-logs`)
 ```
 
 ## Quick start
