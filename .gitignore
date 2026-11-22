@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# third-party firmware: pinned in vendor.lock, restored by scripts/fetch_vendor.ps1
+vendor/ALIFE-MM32/
+
+# build output
+build/
+.pio/
+*.elf
+*.map
+*.hex
+
+# local config dumps (config_snapshot.json is committed on purpose)
+*.local.json

@@ -1,0 +1,4 @@
+url=https://gitlab.com/ailife8881/Hoverboard-Firmware-Hack-Gen2.x-MM32.git
+commit=68f880d47947a9cfaf3fc4fe6ca1fca5e824e271
+date=2026-11-18
+note=clean tree, no local modifications; restore with scripts/fetch_vendor.ps1
